@@ -1,0 +1,482 @@
+.navbar{
+ background-color:  #d11e80 ;
+ overflow: hidden;
+}
+
+.navbar-brand{
+  color: #ffffff!important;
+  font-weight: bold;
+  font-size: 40px;
+  font-family: 'Patrick Hand', cursive;
+}
+.nav-link {
+  margin: 10px;
+  color: #ffffff!important;
+  font-weight: bold;
+}
+.nav-image{
+  width: 50px;
+  height: 50px;
+}
+.nav-link:hover{
+  color:  #000!important;
+}
+/* carousel-part */
+.carousel-part .banner-1{
+    background: linear-gradient(rgb(109 28 82 / 37%), rgb(33 86 74 / 67%)), url("../image/photo-1540555700478-4be289fbecef.jpg") center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding-top: 200px;
+    padding-bottom: 250px;
+}
+.carousel-part .banner-2{
+    background: linear-gradient(rgb(109 28 82 / 37%), rgb(33 86 74 / 67%)), url(../image/rw9hpwbick7tbpja67ny.webp) center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding-top: 200px;
+    padding-bottom: 250px;
+}
+.carousel-part .banner-3{
+    background: linear-gradient(rgb(109 28 82 / 37%), rgb(33 86 74 / 67%)), url("../image/istockphoto-1320345717-170667a.jpg") center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding-top: 200px;
+    padding-bottom: 250px;
+}
+ .carousel-part .owl-dots {
+    position: absolute;
+    bottom: 0;
+    top: auto;
+    left: 50%;
+    right: auto;
+    transform: translate(-50%, -50%);
+  }
+
+
+  .carousel-headding{
+    background-color:#d11e80;
+    padding: 50px 0;
+  }
+
+  .carousel-headding h2{
+    color: #fff;
+    font-size:43px;
+    font-weight: bold;
+
+  }
+  .carousel-headding p{
+    color: #fff;
+
+  }
+  .carousel-part .item h5{
+    color: white;
+    font-weight: bold;
+    font-family: "Open Sans", Arial, sans-serif;
+    text-transform: uppercase;
+    font-size: 100px;
+  }
+
+  .carousel-part .item p{
+  font-size: 16px;
+  color: #000000;
+  font-family: "Open Sans", Arial, sans-serif;
+  text-transform: uppercase;
+  font-weight:bold;
+  line-height: 24px;
+  }
+
+  .btn-large{
+  padding: 15px 40px;
+  }
+  .btn{
+  border: 4px solid white;
+  font-size: 26px;
+  font-weight: 600;
+  color: white;
+  }
+  .btn:hover{
+    color: #fff;
+    background-color:  #F05DA3;
+    border: 4px solid white;
+  }
+/* services-section */
+.services-section{
+background: linear-gradient(to bottom, rgba(0, 0, 0, 5) 0%, rgba(0, 0, 0, 0.7) 75%, #000000 100%),url('../image/20-SM597904-600x400.jpg');
+background-size: cover;
+background-position: center center;
+padding-bottom: 159PX;
+  margin-top: 120px;
+  padding-top: 120px
+
+}
+
+.services-section h1{
+  color: #F05DA3;
+  font-family: "Open Sans", Arial, sans-serif;
+  font-weight: bold;
+}
+.services-para{
+  font-weight: bold;
+  font-family: "Open Sans", Arial, sans-serif;
+  margin-top: 23px;
+  color: #ffff;
+}
+.services-card{
+  margin-top: 56px;
+  align-items: center;
+
+}
+.card-para{
+  color:  #f1da75 ;
+}
+.our-service-para{
+        position: relative;
+        padding: 40px 10px;
+        border-radius: 15px;
+        overflow: hidden;
+        margin: 20px 20px;
+    }
+.our-service-para:before{
+    content: "";
+    position: absolute;
+    background-color: #f05da3;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top:100%;
+    z-index: -1;
+    transition: 0.5s;
+}
+
+.our-service-para:hover:before{
+    top:0;
+    transition: 0.5s;
+
+}
+.our-service-para:hover p{
+    color: #ffffff !important;
+}
+.our-service-para:hover h5{
+    color: #ffffff !important;
+}
+.our-service-para:hover .services-icon{
+    color: #ffffff!important;
+}
+
+.services-icon{
+  color: #F05DA3;
+
+}
+.card-part {
+    text-align: center;
+}
+.our-service-para h5{
+  color: #F05DA3;
+  font-weight: bold;
+  font-family: "Open Sans", Arial, sans-serif;
+}
+
+/* packages-section */
+.packages-section{
+  margin-top: 120px;
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 5) 0%, rgba(0, 0, 0, 0.5) 20%, #000000 100%),url('../image/cdn1.treatwell.webp');
+  background-size: cover;
+  background-position: center center;
+  padding-bottom: 159PX;
+    margin-top: 163px;
+    padding-top: 120px
+}
+.packages-section h1{
+  color:  #d11e80;
+  font-family: "Open Sans", Arial, sans-serif;
+  font-weight: bold;
+}
+.packages-para{
+  font-weight: bold;
+  font-family: "Open Sans", Arial, sans-serif;
+  margin-top: 23px;
+  color: #fff;
+}
+.packages-card{
+  margin-top: 56px;
+}
+.packagescard-part h5{
+  color:  #d11e80;
+  font-weight: bold;
+  font-family: "Open Sans", Arial, sans-serif;
+  text-align: center;
+}
+.packagescard-para{
+  text-align: center;
+  font-weight: bold;
+  font-family: "Open Sans", Arial, sans-serif;
+  color: #fff;
+}
+.packagescard-para2{
+background-color: #d11e80;
+  text-align: center;
+  padding: 15px;
+  color: #ffff;
+}
+/* gallery-section */
+.gallery-section{
+      background: linear-gradient(to bottom, rgba(0, 0, 0, 5) 0%, rgba(0, 0, 0, 0.5) 20%, #000000 100%),url('../image/red-apple-beauty-care-charan-bagh-patiala-salons-1iq8gt3wz8.webp');
+    background-size: cover;
+    background-position: center center;
+    padding-bottom: 159PX;
+      margin-top: 163px;
+      padding-top: 120px
+}
+.gallery-section h1{
+  color:#d11e80;
+  font-family: "Open Sans", Arial, sans-serif;
+  font-weight: bold;
+}
+.gallery-para{
+  font-weight: bold;
+  font-family: "Open Sans", Arial, sans-serif;
+  margin-top: 23px;
+  color: #ffff;
+}
+.gallery-card{
+  margin-top: 56px;
+}
+.portfolio-item {
+  max-width: 26rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+ .portfolio-item .portfolio-link {
+  position: relative;
+  display: block;
+  margin: 0 auto;
+}
+.portfolio-item .portfolio-link .portfolio-hover {
+  display: flex;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background:#d11e80;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  transition: opacity ease-in-out 0.25s;
+}
+.portfolio-link .portfolio-hover .portfolio-hover-content {
+  font-size: 1.25rem;
+  color: white
+}
+.portfolio-item .portfolio-link:hover .portfolio-hover {
+  opacity: 1
+}
+.portfolio-item .portfolio-caption {
+  padding: 1.5rem;
+  text-align: center;
+  background-color: #fff;
+}
+.portfolio-item .portfolio-caption .portfolio-caption-heading {
+  font-size: 1.5rem;
+  font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-weight: 700;
+  margin-bottom: 0;
+}
+/* ourteam-section */
+.ourteam-section{
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 5) 0%, rgba(0, 0, 0, 0.5) 20%, #000000 100%),url('../image/istockphoto-123465207-612x612.jpg');
+background-size: cover;
+background-position: center center;
+padding-bottom: 159PX;
+  margin-top: 163px;
+  padding-top: 120px
+
+}
+.ourteam-section h1{
+  color: #F05DA3;
+  font-family: "Open Sans", Arial, sans-serif;
+  font-weight: bold;
+}
+.ourteam-para{
+  font-weight: bold;
+  font-family: "Open Sans", Arial, sans-serif;
+  margin-top: 23px;
+  color: #ffff;
+}
+.ourteam-card{
+margin-top: 56px;
+}
+.person-image{
+  width: 150px;
+height: 150px;
+margin: auto;
+}
+.person-content {
+  margin-top: 20px;
+}
+.person-content h3{
+  font-weight: 400;
+  color: #ffff;
+
+}
+.person-content h5{
+  color: #F05DA3;
+  font-size: 13px;
+  font-weight: 400;
+  margin-bottom: 20px;
+  margin-right: 20px;
+padding-left: 42px;
+}
+.person-content p{
+  font-size: 14px;
+line-height: 22.4px;
+color:#ffff;
+}
+/* carouselpart2-section */
+.carouselpart2-section{
+  margin-top: 120px;
+  background-color: #F05DA3;
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+.carousel-para{
+  color: #fff !important;
+  font-weight: bold;
+  font-size: 30px;
+}
+/* from-section */
+.from-section{
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 5) 0%, rgba(0, 0, 0, 0.5) 20%, #000000 100%),url('../image/new-beauty-treatments-1024x414.jpg');
+background-size: cover;
+background-position: center center;
+padding-bottom: 159PX;
+  margin-top: 163px;
+  padding-top:140px;
+    overflow: hidden;
+}
+.from-section h1{
+  color: #F05DA3;
+  font-family: "Open Sans", Arial, sans-serif;
+  font-weight: bold;
+}
+.fromsection-para{
+  font-weight: bold;
+  font-family: "Open Sans", Arial, sans-serif;
+  margin-top: 23px;
+  color: #fff;
+}
+.from-part{
+  margin-top: 56px;
+}
+
+.submitBnt {
+  background: #F05DA3;
+  color: #fff!important;
+  margin-top: 30px;
+  padding: 15px 30px 15px 30px;
+  font-size: 13px;
+  font-weight: 600;
+  letter-spacing: 5px;
+  border: 0;
+  -moz-border-radius: 2px;
+  -webkit-border-radius: 2px;
+  border-radius: 2px;
+  display: inline-block;
+  text-transform: uppercase;
+justify-content: center;
+}
+.submitBnt:hover{
+  color: #F05DA3 !important;
+  background-color: #e8e8e8;
+}
+.confrom{
+margin: 0 auto;
+}
+.confrom input{
+color: #797979;
+padding: 15px 30px;
+border: none;
+margin-right: 3%;
+margin-bottom: 30px;
+outline: none;
+font-style: normal;
+border: #e0e0e0 1px solid;
+font-size: 15px;
+}
+.confrom textarea{
+  color: #797979;
+padding: 15px 30px;
+margin-bottom: 18px;
+outline: none;
+height: 150px;
+font-style: normal;
+resize: none;
+font-size: 15px;
+border: none;
+border: #e0e0e0 1px solid;
+}
+/* foot-section */
+.footer_portion{
+  background-color:  #d11e80;
+  padding-top: 120px;
+  padding-bottom: 20px;
+  margin-top: 163px;
+}
+.footer_row{
+  width: 100%;
+}
+.footer_column{
+  width: 23%;
+ float: left;
+ margin: 11px;
+}
+.list{
+  list-style: none;
+  padding: 0;
+  line-height: 1.5;
+
+}
+.foot_list{
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+.links{
+  text-decoration: none;
+  font-family: 'Montserrat', sans-serif;
+  color: #ffffff;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+h4{
+  font-family: 'Montserrat', sans-serif;
+ color: #f7e025;
+ text-shadow: 0 0 0.8em #c4fb6d, 0 0 0.6em #bac964;
+}
+.company_add {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 12px;
+  line-height: 3;
+  color: #ffffff;
+
+}
+.footer_para{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 12px;
+  line-height: 3;
+  color: #ffffff;
+
+}
+.links:hover{
+   text-shadow: 0 0 0.8em #ffffff, 0 0 0.6em #e4e3e3;
+}
+.company_add:hover{
+   text-shadow: 0 0 0.8em #ffffff, 0 0 0.6em #e4e3e3;
+}
+.footer_para:hover{
+  text-shadow: 0 0 0.8em #ffffff, 0 0 0.6em #e4e3e3;
+}
+.footer-para{
+  color: #fff;
+}
